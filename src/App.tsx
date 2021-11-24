@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Cheader } from './components/cheader/Cheader';
 import { Nav } from './components/nav/Nav';
 import { Sidebar } from './components/sidebar/Sidebar';
 
@@ -9,6 +10,9 @@ function App() {
       <Nav></Nav>
       <div className="content">
         <Sidebar></Sidebar>
+        <div className="central">
+          <Cheader></Cheader>
+        </div>
       </div>
     </div>
   );

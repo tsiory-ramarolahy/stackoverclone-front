@@ -29,6 +29,7 @@
 
 .active{
     background-color: #f1f2f3;
+    color: #000;
     font-weight: bolder;
     border-right: .2rem solid #f48225;
     margin-left: 0;
@@ -43,23 +44,8 @@
     align-items: center;
 }
 
-.teams-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 1.5rem;
-    background-color: #0a95ff;
-    color: #fff;
-    border: .05rem solid #7aa7c7;
-}
-
-.teams-btn:hover{
-    background-color: #0877cc;
-}
-
 .bteams-btn:hover{
-    background-color: #e3e6e8;
+    background-color: #f1f2f3;
 }
 
 .svg-icon {
@@ -69,4 +55,8 @@
 
 .coll{
     margin-left: 0;
+}
+
+.fc-orange-400{
+    fill: #f48225;
 }

@@ -1,0 +1,53 @@
+.main-center-header{
+    display:flex;
+    width: 50rem;
+    flex-direction: column;
+    height: 9rem;
+    margin: 0;
+    padding-left: 1rem;
+    border-bottom: .05rem solid #d6d9dc;
+    justify-content: center;
+}
+
+.mch-questions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mch-title{
+    font-size: 2rem;
+}
+
+.a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+td{
+    border: .04rem solid #9fa6ad;
+    height: 2rem;
+    border-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td:hover{
+    cursor: pointer;
+    background-color: #f1f2f3;
+}
+
+.ta{
+    background-color: #e3e6e8;
+}
+
+.tbls{
+    display:flex;
+    flex-direction: row;
+}
+
+.filter{
+    margin-left: 1rem;
+}

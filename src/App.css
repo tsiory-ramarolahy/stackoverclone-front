@@ -48,4 +48,6 @@ input{
 
 .content{
     padding: 4rem 16.5rem;
+    display:flex;
+    flex-direction: row;
 }
