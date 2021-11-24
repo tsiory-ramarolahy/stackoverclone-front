@@ -7,6 +7,7 @@
     padding-left: 1rem;
     border-bottom: .05rem solid #d6d9dc;
     justify-content: center;
+    border-left: .05rem solid #d6d9dc;
 }
 
 .mch-questions{
@@ -46,8 +47,15 @@ td:hover{
 .tbls{
     display:flex;
     flex-direction: row;
+    color: #646a70;
+    font-size: .75rem;
 }
 
 .filter{
     margin-left: 1rem;
+}
+
+.bountied{
+    background-color: #0a95ff;
+    color:#fff;
 }
