@@ -8,5 +8,14 @@ export const Questions = ()  => {
             <Question></Question>
             <Question></Question>
             <Question></Question>
+            <Question></Question>
+            <Question></Question>
+            <Question></Question>
+            <Question></Question>
+            <Question></Question>
+            <Question></Question>
+            <Question></Question>
+            <Question></Question>
+            <Question></Question>
         </div>
 };

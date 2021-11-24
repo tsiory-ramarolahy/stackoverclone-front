@@ -1,0 +1,44 @@
+.Footer{
+    height: 25rem;
+    background-color: #232629;
+    color: #737c83;
+    font-size: .8rem; 
+}
+
+a:hover{
+    color:#fff;
+}
+
+h4{
+    color: #babfc4;
+    font-size: 1rem;
+}
+
+.fcontent{
+    padding: 4rem 16.5rem;
+    display:flex;
+    flex-direction: row;
+}
+
+.fcontent > *{
+    display:flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.links{
+    justify-content: space-between;
+    font-size: .65rem;
+}
+
+.social{
+    margin-top: 1.5rem;
+}
+
+.social > *{
+    margin: 0 1rem;
+}
+
+.licence{
+    white-space: normal;
+}

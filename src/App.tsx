@@ -4,6 +4,7 @@ import { Cheader } from './components/cheader/Cheader';
 import { Nav } from './components/nav/Nav';
 import { Sidebar } from './components/sidebar/Sidebar';
 import { Questions } from './components/questions/Questions';
+import { Footer } from './components/footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Questions></Questions>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
