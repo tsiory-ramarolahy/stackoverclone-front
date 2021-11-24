@@ -26,3 +26,47 @@
 .sidebar-a:hover{
     color: black;
 }
+
+.active{
+    background-color: #f1f2f3;
+    font-weight: bolder;
+    border-right: .2rem solid #f48225;
+    margin-left: 0;
+}
+
+.teams{
+    display:flex;
+    flex-direction: column;
+    border: .05rem solid #d6d9dc;
+    border-right: 0;
+    font-size: .75rem;
+    align-items: center;
+}
+
+.teams-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 1.5rem;
+    background-color: #0a95ff;
+    color: #fff;
+    border: .05rem solid #7aa7c7;
+}
+
+.teams-btn:hover{
+    background-color: #0877cc;
+}
+
+.bteams-btn:hover{
+    background-color: #e3e6e8;
+}
+
+.svg-icon {
+    height: 1.2rem;
+    margin-right: 0.8rem;
+}
+
+.coll{
+    margin-left: 0;
+}
