@@ -1,3 +1,4 @@
+import { Pagination } from "../pagination/Pagination";
 import { Question } from "../question/Question";
 
 export const Questions = ()  => {
@@ -17,5 +18,6 @@ export const Questions = ()  => {
             <Question></Question>
             <Question></Question>
             <Question></Question>
+            <Pagination></Pagination>   
         </div>
 };

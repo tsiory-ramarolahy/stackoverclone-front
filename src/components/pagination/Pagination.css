@@ -1,0 +1,45 @@
+.Pagination{
+    height: 8rem;
+    border-left: .05rem solid #d6d9dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ol{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.pag-i{
+    width: 25rem;
+}
+
+li{
+    border: .05rem solid #d6d9dc;
+    padding: .2rem .5rem;
+}
+
+.npn{
+    border: none;
+}
+
+.pag-nbr:hover{
+    background-color: #f1f2f3;
+    cursor: pointer;
+}
+
+.pactive{
+    background-color: #f48225;
+    color: #fff;
+}
+
+.pactive:hover{
+    background-color: #f48225;
+    cursor: default;
+}
+
+.pag-g{
+    width: 16rem;
+}

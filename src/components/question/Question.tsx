@@ -6,7 +6,7 @@ export const Question = () => {
             <span className="nbr">0</span> <span className="stxt">votes</span> <span className="nbr">0</span><span className="stxt">answers</span><span className="views">2 views</span>
         </div>
         <div className="o">
-            <div className="qtitle"><a href="#">How to solve access token error while loggin in with microsoft in php ?</a></div>
+            <a href="#"><div className="qtitle_">How to solve access token error while loggin in with microsoft in php ?</div></a>
             <div className="qlbl">Here is my code which i am usign for logging in microsoft Here is my code which i am usign for logging in microsoft Here is my code which i am usign for logging in microsoft</div>
             <div className="qft">
                 <div className="tags">

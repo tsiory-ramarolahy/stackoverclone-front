@@ -37,10 +37,14 @@
     white-space: normal;
 }
 
-.qtitle{
+.qtitle_{
     color: #0a95ff;
     margin-bottom: 1rem;
     font-size: 1.25rem;
+}
+
+.qtitle_:hover{
+   color: #0877cc;
 }
 
 .qlbl{
@@ -65,10 +69,6 @@
     background-color: #e1ecf4;
     color: #39739d;
     font-size: .8rem;
-}
-
-.qtitle:hover{
-    color: #0877cc;
 }
 
 .time{
